@@ -63,7 +63,7 @@ const stockItems = [
       <div class="text-[15px] font-semibold tracking-[-0.02em]">Mirela</div>
       <div class="hidden items-center gap-6 text-sm text-[#5f655f] md:flex">
         <a href="#prehlad" class="hover:text-[#171717]">Prehľad</a>
-        <a href="#obrazovky" class="hover:text-[#171717]">Obrazovky</a>
+        <a href="#prehlad-appky" class="hover:text-[#171717]">Prehľad appky</a>
         <a href="#vysledok" class="hover:text-[#171717]">Výsledok</a>
       </div>
     </header>
@@ -93,10 +93,10 @@ const stockItems = [
 
           <div class="mt-8 flex flex-wrap gap-3">
             <a
-              href="#obrazovky"
+              href="#prehlad-appky"
               class="rounded-[18px] bg-[#16a34a] px-5 py-3 text-sm font-semibold text-white shadow-[0_10px_30px_rgba(22,163,74,0.22)]"
             >
-              Pozrieť obrazovky
+              Pozrieť appku
             </a>
             <a
               href="#prehlad"
@@ -299,7 +299,7 @@ const stockItems = [
         </div>
       </section>
 
-      <section id="obrazovky" class="mx-auto max-w-[1560px] px-5 py-16 sm:px-6 lg:px-8 lg:py-20">
+      <section id="prehlad-appky" class="mx-auto max-w-[1560px] px-5 py-16 sm:px-6 lg:px-8 lg:py-20">
         <div class="max-w-2xl">
           <div class="text-sm font-medium text-[#6a6f6a]">Ako to vyzerá</div>
           <h2 class="mt-2 text-3xl font-semibold tracking-[-0.04em] sm:text-4xl">
